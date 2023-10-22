@@ -1,0 +1,21 @@
+{
+  "name": "mongoose",
+  "version": "5.11.15",
+  "description": "test",
+  "main": "na",
+  "scripts": {
+    "test": "node myapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "yajae",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
