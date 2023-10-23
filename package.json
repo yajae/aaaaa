@@ -16,6 +16,7 @@
   "author": "yajae",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "mongoose":"^5.11.15"
   }
 }
