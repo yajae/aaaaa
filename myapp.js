@@ -1,8 +1,7 @@
 const mongoose=require("mongoose");
 const env=require('dotenv').config();
-console.log(mongoose.version);
-// const env=requir("env");
-const conn=mongoose.createConnection(process.env.uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+const conn=mongoose.createConnection(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 conn.on("connected",()=>{
     console.log("MongoDB is connected");
